@@ -1,0 +1,23 @@
+From 57e79652f4402b7cdd81af2299fa8c8da073b418 Mon Sep 17 00:00:00 2001
+From: jayedeep <jaydeeptalaviya8@gmail.com>
+Date: Wed, 18 Nov 2020 10:28:10 +0530
+Subject: [PATCH] changes in about.html
+
+---
+ flaskblog/templates/about.html | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/flaskblog/templates/about.html b/flaskblog/templates/about.html
+index 0420c99..9e0fe5c 100644
+--- a/flaskblog/templates/about.html
++++ b/flaskblog/templates/about.html
+@@ -3,5 +3,6 @@
+     <h1>
+         This is a about page
+         this is a first testing.
++        this is second testing.
+     </h1>
+ {%endblock%}
+-- 
+2.25.1
+
